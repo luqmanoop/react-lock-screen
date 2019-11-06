@@ -20,5 +20,9 @@
   "dependencies": {
     "prop-types": "15.7.2",
     "react-idle-timer": "4.2.11"
+  },
+  "peerDependencies": {
+    "react": "16.8.x",
+    "react-dom": "16.8.x"
   }
 }
