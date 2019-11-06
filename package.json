@@ -1,0 +1,24 @@
+{
+  "name": "react-lock-screen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeshifu/react-lock-screen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codeshifu/react-lock-screen/issues"
+  },
+  "homepage": "https://github.com/codeshifu/react-lock-screen#readme",
+  "dependencies": {
+    "prop-types": "15.7.2",
+    "react-idle-timer": "4.2.11"
+  }
+}
