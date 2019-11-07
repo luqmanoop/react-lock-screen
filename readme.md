@@ -16,7 +16,7 @@ $ npm install react-lock-screen
 
 ## Usage
 
-```js
+```jsx
 import LockScreen from 'react-lock-screen'
 ...
 
@@ -49,7 +49,7 @@ type: `function`
 
 A function that returns some jsx representing the UI to show when screen is locked. Recieves a function argument that can be used to toggle lock-screen state.
 
-```js
+```jsx
 <LockScreen ui={setLock => <button onClick={setLock(false)}>unlock</button>}>
   ...
 </LockScreen>
@@ -71,7 +71,7 @@ Class name to be applied to the blurred div when screen is locked. This is usefu
   overflow: hidden;
 }
 ```
-can be styled in your app css using
+override default styles using className prop
 ```jsx
 <LockScreen className="lock">
 ...
@@ -103,4 +103,4 @@ Please make sure to update tests as appropriate.
 
 ## License
 
-`react-lock-screen` is licensed under [MIT]()
+[react-lock-screen](https://github.com/codeshifu/react-lock-screen) is licensed under [MIT]()
