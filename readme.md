@@ -103,4 +103,4 @@ Please make sure to update tests as appropriate.
 
 ## License
 
-[react-lock-screen](https://github.com/codeshifu/react-lock-screen) is licensed under [MIT]()
+[react-lock-screen](https://github.com/codeshifu/react-lock-screen) is licensed under [MIT](https://github.com/codeshifu/react-lock-screen/blob/master/license)
