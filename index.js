@@ -20,8 +20,8 @@ function LockScreen(props) {
     isLocked ? props.onScreenLocked() : props.onScreenUnlocked();
   }, [isLocked]);
 
-  const renderLockScreen = () => {
-    if (isLocked) return props.lockScreen(setLock);
+  const renderLockScreenUi = () => {
+    if (isLocked) return props.ui(setLock);
   };
 
   const defaultLockScreenStyles = () =>
@@ -43,7 +43,7 @@ function LockScreen(props) {
       >
         {props.children}
       </div>
-      {renderLockScreen()}
+      {renderLockScreenUi()}
     </Fragment>
   );
 }
@@ -55,7 +55,7 @@ LockScreen.defaultProps = {
 
 LockScreen.propTypes = {
   timeout: PropTypes.number.isRequired,
-  lockScreen: PropTypes.func.isRequired,
+  ui: PropTypes.func.isRequired,
   className: PropTypes.string,
   onScreenLocked: PropTypes.func,
   onScreenUnlocked: PropTypes.func
