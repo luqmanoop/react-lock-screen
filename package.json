@@ -1,6 +1,6 @@
 {
   "name": "react-lock-screen",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple lock-screen for idle React applications",
   "source": "index.js",
   "main": "dist/react-lock-screen.js",
