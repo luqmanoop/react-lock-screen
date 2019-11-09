@@ -2,7 +2,10 @@
 
 > Simple lock-screen for idle React applications
 
-Display a lock-screen when your React applications becomes idle
+Display a custom lock-screen when your React applications becomes idle
+
+## Demo
+See it in action [here](https://codesandbox.io/s/react-lock-screen-demo-q2zx3)
 
 ## Prerequisites
 
